@@ -1,0 +1,4 @@
+interface:
+  display_name: "3D 质感动画表情包"
+  short_description: "从文字描述设计角色或使用参考图，制作动画表情及横幅、封面和图标"
+  default_prompt: "使用 $plush-animated-stickers，根据我的角色描述先生成形象图，再制作一套 3D 质感动画表情包及配套素材。"

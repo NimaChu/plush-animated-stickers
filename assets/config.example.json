@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "canvas": [
+    240,
+    240
+  ],
+  "character_box": [
+    16,
+    12,
+    224,
+    194
+  ],
+  "alpha_threshold": 112,
+  "font": "inputs/your-cjk-font.ttf",
+  "font_size": 26,
+  "caption_y": 218,
+  "text_color": "#44392F",
+  "matte": "white",
+  "provenance": [
+    "inputs/character-reference.png",
+    "prompts/01.txt",
+    "generation.json"
+  ],
+  "stickers": [
+    {
+      "id": "01-greeting",
+      "sheet": "keyframes/01.png",
+      "grid": [
+        3,
+        2
+      ],
+      "sheet_size": [
+        1536,
+        1024
+      ],
+      "caption": "你好",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "durations_ms": [
+        400,
+        180,
+        180,
+        220,
+        180,
+        400,
+        180,
+        220,
+        180,
+        220
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -6
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "loop": 0,
+      "max_bytes": 500000
+    }
+  ],
+  "companions": {
+    "banner": {
+      "source": "inputs/banner.png",
+      "size": [
+        750,
+        400
+      ],
+      "format": "JPEG",
+      "max_bytes": 80000
+    },
+    "cover": {
+      "source": "inputs/cover.png",
+      "size": [
+        240,
+        240
+      ],
+      "format": "PNG",
+      "max_bytes": 80000
+    },
+    "icon": {
+      "source": "inputs/icon.png",
+      "size": [
+        50,
+        50
+      ],
+      "format": "PNG",
+      "max_bytes": 30000
+    }
+  }
+}
