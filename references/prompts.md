@@ -50,7 +50,7 @@ Do not duplicate and translate the same static render.
 Loop intent: {{forward/backward or start/end match}}.
 ```
 
-单格尺寸、整图比例与网格应相容。若工具实际不支持要求的尺寸，不把数字换个写法当作成功；记录真实结果并调整生成或合成方案。
+单格尺寸、整图比例与网格应相容。若工具实际不支持要求的尺寸，不把数字换个写法当作成功；记录真实结果并调整生成或合成方案。背景写「true transparent alpha」也可能只得到不透明白底或画上的棋盘格，交付前必须读取实际 alpha；回退做法见 [合成与验证](compositing.md#生成器没有给真实-alpha-时)。
 
 ## 动作拆解方法
 
