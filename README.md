@@ -22,13 +22,13 @@
 | <img src="examples/yangyang-daily-v1/05-huh.gif" width="150" alt="啊？"> | <img src="examples/yangyang-daily-v1/06-pitiful.gif" width="150" alt="委屈巴巴"> | <img src="examples/yangyang-daily-v1/07-cheer.gif" width="150" alt="加油！"> | <img src="examples/yangyang-daily-v1/08-goodnight.gif" width="150" alt="晚安"> |
 | 啊？ | 委屈巴巴 | 加油！ | 晚安 |
 
-配套三件套同时产出，不是只给 GIF：
+微信表情上传时，除了表情图本身，还要一并提交三张配套素材：详情页横幅、表情封面、聊天图标。本技能一次产出这三张，不用另外补做：
 
 | 详情页横幅 750×400 | 表情封面 240×240（透明） | 聊天图标 50×50（透明） |
 |:--:|:--:|:--:|
 | <img src="examples/yangyang-daily-v1/banner.jpg" width="330" alt="详情页横幅"> | <img src="examples/yangyang-daily-v1/cover.png" width="150" alt="表情封面"> | <img src="examples/yangyang-daily-v1/icon.png" width="50" alt="聊天图标"> |
 
-图片放在 [examples/yangyang-daily-v1](examples/yangyang-daily-v1)，说明见该目录 [README](examples/yangyang-daily-v1/README.md)。示例只用于展示效果，尺寸、帧数和文案都是可配置项，不是制作规范或平台要求。
+图片放在 [examples/yangyang-daily-v1](examples/yangyang-daily-v1)，说明见该目录 [README](examples/yangyang-daily-v1/README.md)。示例只用于展示效果，尺寸、帧数和文案都是可配置项，不是制作规范或平台要求；配套素材的尺寸与体积请以自己看到的提交页面为准。
 
 ## 安装
 

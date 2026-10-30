@@ -33,7 +33,7 @@ python3 "$sticker_skill_dir/scripts/build_stickers.py" --verify /absolute/worksp
 | matte | 共享色板采样时的合成底色，默认 white；不改变导出透明背景 |
 | provenance | 参考图、实际提示词、身份记录、生成记录等需要原样保留的文件路径数组 |
 | stickers | 至少一个动作，见下表 |
-| companions | 必含 banner、cover、icon，可增加 artist-avatar、artist-banner |
+| companions | 必含 banner、cover、icon：这三项是微信表情上传时要一并提交的配套素材（详情页横幅、表情封面、聊天图标），不是可选装饰。可增加 artist-avatar、artist-banner |
 
 每个 `stickers` 项：
 
