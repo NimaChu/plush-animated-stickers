@@ -11,6 +11,25 @@
 
 “3D”指成品的材质、体积和光照表现；本技能不包含三维模型、骨骼绑定或 Blender 工程。
 
+## 示例
+
+下面是作者用本技能做的完整一套：白色长身绒毛角色「羊羊」的日常表情。GIF 为 240×240、10 帧时间轴、无限循环，点开可看动效。
+
+|  |  |  |  |
+|:--:|:--:|:--:|:--:|
+| ![绞尽脑汁](examples/yangyang-daily-v1/01-thinking.gif) | ![收到！](examples/yangyang-daily-v1/02-roger.gif) | ![马上安排](examples/yangyang-daily-v1/03-on-it.gif) | ![开心！](examples/yangyang-daily-v1/04-happy.gif) |
+| 绞尽脑汁 | 收到！ | 马上安排 | 开心！ |
+| ![啊？](examples/yangyang-daily-v1/05-huh.gif) | ![委屈巴巴](examples/yangyang-daily-v1/06-pitiful.gif) | ![加油！](examples/yangyang-daily-v1/07-cheer.gif) | ![晚安](examples/yangyang-daily-v1/08-goodnight.gif) |
+| 啊？ | 委屈巴巴 | 加油！ | 晚安 |
+
+配套三件套同时产出，不是只给 GIF：
+
+| 详情页横幅 750×400 | 表情封面 240×240（透明） | 聊天图标 50×50（透明） |
+|:--:|:--:|:--:|
+| <img src="examples/yangyang-daily-v1/banner.jpg" width="330" alt="详情页横幅"> | <img src="examples/yangyang-daily-v1/cover.png" width="150" alt="表情封面"> | <img src="examples/yangyang-daily-v1/icon.png" width="50" alt="聊天图标"> |
+
+图片放在 [examples/yangyang-daily-v1](examples/yangyang-daily-v1)，说明见该目录 [README](examples/yangyang-daily-v1/README.md)。示例只用于展示效果，尺寸、帧数和文案都是可配置项，不是制作规范或平台要求。
+
 ## 安装
 
 将本仓库完整复制到支持 SKILL.md 的客户端技能目录。以 Codex 用户技能目录为例：
@@ -66,5 +85,6 @@ python3 -m unittest discover -s tests -v
 - scripts/build_stickers.py：配置化 GIF 合成、配套导出与技术验证。
 - tests/test_portability.py：离线行为测试。
 - agents/openai.yaml：技能显示信息和默认调用提示。
+- examples/yangyang-daily-v1/：作者自有角色的成品示例。
 
-本仓库不包含私人参考图、角色成品、账号凭据或原制作项目。
+本仓库不含私人参考原图、账号凭据或原制作项目。`examples/` 只放作者自有角色的成品演示与说明，不含角色的参考图、身份记录和构建配置，也不构成对其他角色素材的授权。
