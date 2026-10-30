@@ -17,9 +17,9 @@
 
 |  |  |  |  |
 |:--:|:--:|:--:|:--:|
-| ![绞尽脑汁](examples/yangyang-daily-v1/01-thinking.gif) | ![收到！](examples/yangyang-daily-v1/02-roger.gif) | ![马上安排](examples/yangyang-daily-v1/03-on-it.gif) | ![开心！](examples/yangyang-daily-v1/04-happy.gif) |
+| <img src="examples/yangyang-daily-v1/01-thinking.gif" width="150" alt="绞尽脑汁"> | <img src="examples/yangyang-daily-v1/02-roger.gif" width="150" alt="收到！"> | <img src="examples/yangyang-daily-v1/03-on-it.gif" width="150" alt="马上安排"> | <img src="examples/yangyang-daily-v1/04-happy.gif" width="150" alt="开心！"> |
 | 绞尽脑汁 | 收到！ | 马上安排 | 开心！ |
-| ![啊？](examples/yangyang-daily-v1/05-huh.gif) | ![委屈巴巴](examples/yangyang-daily-v1/06-pitiful.gif) | ![加油！](examples/yangyang-daily-v1/07-cheer.gif) | ![晚安](examples/yangyang-daily-v1/08-goodnight.gif) |
+| <img src="examples/yangyang-daily-v1/05-huh.gif" width="150" alt="啊？"> | <img src="examples/yangyang-daily-v1/06-pitiful.gif" width="150" alt="委屈巴巴"> | <img src="examples/yangyang-daily-v1/07-cheer.gif" width="150" alt="加油！"> | <img src="examples/yangyang-daily-v1/08-goodnight.gif" width="150" alt="晚安"> |
 | 啊？ | 委屈巴巴 | 加油！ | 晚安 |
 
 配套三件套同时产出，不是只给 GIF：
